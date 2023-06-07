@@ -1,13 +1,8 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { AdditemComponent } from './additem/additem.component';
 
 
-const routes: Routes = [
-  // {
-  //   path: "", component: AdditemComponent
-  // }
-];
+const routes: Routes = [];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
