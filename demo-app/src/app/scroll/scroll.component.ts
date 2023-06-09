@@ -6,7 +6,7 @@ import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
   styleUrls: ['./scroll.component.css']
 })
 export class ScrollComponent implements OnInit {
-  ngOnInit(): void {
+  ngOnInit() {
    
   }
   @ViewChild('addAddressSection', { static: false }) addAddressSection: ElementRef;
