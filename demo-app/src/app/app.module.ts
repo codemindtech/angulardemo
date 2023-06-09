@@ -5,10 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AdditemComponent } from './additem/additem.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ScrollComponent } from './scroll/scroll.component';
 @NgModule({
   declarations: [
     AppComponent,
-    AdditemComponent
+    AdditemComponent,
+    ScrollComponent
   ],
   imports: [
     BrowserModule,
